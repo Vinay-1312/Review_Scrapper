@@ -13,7 +13,7 @@ app = Flask(__name__)  # initialising the flask app with the name 'app'
 #c=conn.cursor()
 #searchString="xyz"
 
-#c.execute("SELECT * FROM review WHERE product= ?",(searchString,))
+  #c.execute("SELECT * FROM review WHERE product= ?",(searchString,))
 
 @app.route('/',methods=['POST','GET']) # route with allowed methods as POST and GET
 def index():
